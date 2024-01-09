@@ -42,7 +42,7 @@ Active Desktop
 ### Links
 
 - Solution URL: [blog-preview-card repository](https://github.com/philipecortez/blog-preview-card)
-- Live Site URL: [blog-preview-card site]( https://philipecortez.github.io/blog-preview-card-main/)
+- Live Site URL: [blog-preview-card site]( https://philipecortez.github.io/blog-preview-card/)
 
 ## My process
 
@@ -92,8 +92,6 @@ I need to improve on CSS organization
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@philipecortez](https://www.frontendmentor.io/profile/philipecortez)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
