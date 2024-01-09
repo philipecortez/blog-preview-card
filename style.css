@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap);
+
+:root {
+  --primary-color: hsl(47, 88%, 63%);
+  --neutral-color-white: hsl(0, 0%, 100%);
+  --neutral-color-gray: hsl(0, 0%, 50%);
+  --neutral-color-black: hsl(0, 0%, 7%);
+  
+  /* Paragraph font-size */
+  --paragraph-font-size: 1rem;
+
+  /* font weights */
+  --normal-weight: 600;
+  --heavy-weight: 800;
+
+  /* font-family */
+  --font-family: 'Figtree', sans-serif;
+
+  /* elements width */
+  --article-width: 330px;
+  --main-img-width: 300px;
+  --footer-img-width: 30px;
+}
+
+body {
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: var(--primary-color);
+  font-family: var(--font-family);
+}
+
+p {
+  font-size: var(--paragraph-font-size);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+main article {
+  background-color: var(--neutral-color-white);
+  border: 1px solid var(--neutral-color-black);
+  border-radius: 15px;
+  box-shadow: 10px 10px 1px var(--neutral-color-black);
+  width: var(--article-width);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+article figure {
+  margin: 1rem 1rem .5rem 1rem;
+  text-align: center;
+}
+
+figure img {
+  border-radius: 10px;
+  width: var(--main-img-width);
+}
+
+.post-meta-data {
+  padding: 0 0 0 1rem;
+  font-weight: var(--normal-weight);
+}
+
+.post-meta-data > * {
+  margin: .7rem 0;
+  font-size: .8rem;
+}
+
+.post-meta-data ul {
+  list-style: none;
+  padding: 0 4rem 0 0;
+  font-weight: var(--heavy-weight);
+  font-size: .85rem;
+}
+
+.post-meta-data li {
+  background-color: var(--primary-color);
+  padding: 0.4rem 0.6rem;
+  border-radius: 3px;
+}
+
+.post-meta-data p {
+  padding: 0;
+  color: var(--neutral-color-black);
+}
+
+article h3 {
+  padding-left: 1rem;
+  font-size: 1.4rem;
+  margin: 0.3rem 0;
+}
+
+article:hover {
+  box-shadow: 15px 15px 1px var(--neutral-color-black);
+  cursor: pointer;
+}
+
+article:hover h3 {
+  color: var(--primary-color);
+}
+
+article p {
+  padding-left: 1rem;
+  color: var(--neutral-color-gray);
+  font-size: .9rem;
+  padding-right: 1rem;
+  line-height: 1.3rem;
+}
+
+article footer {
+  display: flex;
+  flex-direction: row;
+  font-weight: var(--heavy-weight);
+  margin-bottom: .5rem;
+}
+
+footer figcaption {
+  align-self: center;
+}
+
+footer p {
+  color: var(--neutral-color-black);
+  padding-left: .5rem;
+}
+
+footer figure {
+  margin-right: 0;
+  margin-top: .5rem;
+}
+
+footer img {
+  width: var(--footer-img-width);
+}
